@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <?define ProductVersion = "0.0.1"?>
-<?define ProductCode = "481d3abf-5b2f-f40f-bdfa-9936449b38a2"?>
-<?define ProductUpgradeCode = "f40f5b2f-3abf-481d-bdfa-8839b38a2644"?>
+<?define ProductCode = "B81d3abf-5b2f-f40f-bdfa-9936449b38a2"?>
+<?define ProductUpgradeCode = "B40f5b2f-3abf-481d-bdfa-8839b38a2644"?>
 <Wix xmlns="http://schemas.microsoft.com/wix/2006/wi">
 
     <Product Id="$(var.ProductCode)" UpgradeCode="$(var.ProductUpgradeCode)" Name="Example Product Name" Version="$(var.ProductVersion)" Manufacturer="Example Company Name" Language="1033">
