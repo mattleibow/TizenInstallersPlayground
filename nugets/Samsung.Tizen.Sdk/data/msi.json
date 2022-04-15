@@ -1,0 +1,25 @@
+{
+    "InstallSize": 11906,
+    "Language": 1033,
+    "Payload": "samsung.tizen.sdk.7.0.100-preview.13.30-x64.msi",
+    "ProductCode": "{481d3abf-5b2f-f40f-bdfa-9936449b38a2}",
+    "ProductVersion": "0.0.1",
+    "ProviderKeyName": "samsung.net.sdk.tizen,6.0.300,x64",
+    "UpgradeCode": "{f40f5b2f-3abf-481d-bdfa-8839b38a2644}",
+    "RelatedProducts": [
+        {
+            "UpgradeCode": "{f40f5b2f-3abf-481d-bdfa-8839b38a2644}",
+            "VersionMin": null,
+            "VersionMax": "0.0.1",
+            "Language": "",
+            "Attributes": 1
+        },
+        {
+            "UpgradeCode": "{f40f5b2f-3abf-481d-bdfa-8839b38a2644}",
+            "VersionMin": "0.0.1",
+            "VersionMax": null,
+            "Language": "",
+            "Attributes": 2
+        }
+    ]
+}
