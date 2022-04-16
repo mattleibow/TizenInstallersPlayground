@@ -31,11 +31,11 @@ The files used by the build process are 2 types:
    There is a different version used in this file to the NuGet SemVer version as the .msi installers require a
    4-part, integer-based version. So the current pattern we have been using is to take the NuGet version of
    `7.0.100-preview.13.30` and strip out the "preview" part and just use the build number `7.0.100.30`.  
-   This does required that all the previews of the `7.0.100` version keep incrementing the build number. For
-   example, if there is a preview 13 build with version `7.0.100-preview.13.30`, then even if there is a
-   preview 14, the build must be incremented and not restarted: `7.0.100-preview.14.31`. To restart the
-   version build, you will have to increment the 3rd version component to be something along the lines of
-   `7.0.101` which will result in a SemVer version of `7.0.101-preview.14.1` and a .msi version of `7.0.101.1`.
+   > This does required that all the previews of the `7.0.100` version keep incrementing the build number. For
+   > example, if there is a preview 13 build with version `7.0.100-preview.13.30`, then even if there is a
+   > preview 14, the build must be incremented and not restarted: `7.0.100-preview.14.31`. To restart the
+   > version build, you will have to increment the 3rd version component to be something along the lines of
+   > `7.0.101` which will result in a SemVer version of `7.0.101-preview.14.1` and a .msi version of `7.0.101.1`.
 
 ## `install-manifest.ps1`
 
