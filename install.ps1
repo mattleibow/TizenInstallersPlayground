@@ -7,6 +7,6 @@ dotnet workload install tizen `
    --source https://pkgs.dev.azure.com/dnceng/public/_packaging/darc-pub-dotnet-emsdk-52e9452f-3/nuget/v3/index.json `
    --source https://pkgs.dev.azure.com/dnceng/public/_packaging/dotnet6/nuget/v3/index.json `
    --source https://api.nuget.org/v3/index.json `
-   --source C:\Projects\wix-installer\feed `
+   --source C:\Projects\wix-installer\bin\msi-nupkgs `
    --skip-sign-check `
    --no-cache

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project>
+  <PropertyGroup>
+    <TargetName>Samsung.NET.Sdk.Tizen.Manifest.Workload</TargetName>
+    <ManifestBuildVersion>7.0.100.30</ManifestBuildVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <WorkloadPackages Include="$(NuGetPackagePath)\samsung.net.sdk.tizen.manifest*.nupkg" Version="7.0.100.30" />
+  </ItemGroup>
+</Project>
