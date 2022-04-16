@@ -58,4 +58,5 @@ dotnet workload install tizen --source $PSScriptRoot\bin\msi-nupkgs --skip-sign-
 > purposes.
 > 
 > The `--skip-sign-check` argument on the install is to disable the signing check during installation
-> because I have not signed these files as I do not have access to any Samsung certificates.
+> because I have not signed these files as I do not have access to any Samsung certificates. Also note,
+> this check can be disabled by domain policies, so cannot be relied upon to always work.
