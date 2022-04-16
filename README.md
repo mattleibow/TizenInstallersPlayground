@@ -43,7 +43,7 @@ This script is a modified version of the script found at:
 
 https://github.com/Samsung/Tizen.NET/blob/main/workload/scripts/workload-install.ps1
 
-The modifications are to remove and worklaod/pack installation. All that it does not is make sure the workload
+The modifications are to remove and worklaod/pack installation. All that it does is to make sure the workload
 manifest is on disk for the next/future installation of the workloads.
 
 ## `install-tizen.ps1`
